@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+color: #2379d5;
+margin-bottom: 25px;
+font: size 2.5em;
+font-family: Arial,sans-serif;
+}
+h2{
+    text-align: left;
+    color:black;
+    font-size: 20px;
+}
+.navbar {
+    background-color: #1077df;
+    color:#ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px #1817171a;
+}
+.nav
+ {
+    background-color: #3d4045;
+    color:#ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    box-shadow: 0 2px 8px #1817171a;
+}

@@ -1,0 +1,168 @@
+h6
+{
+  color:white;
+  font-size:35px;
+  justify-content: center;
+}
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    z-index: 1002;
+  }
+.color
+{
+    background-color: #52d2d2;
+    flex-grow: 1;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.nav
+ {
+    background-color: #3d4045;
+    color:#ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    box-shadow: 0 2px 8px #1817171a;
+}
+.para{
+  color: #ffffff;
+}
+.back
+{
+background-image:url("/Images/background.png");
+opacity: 0.8;
+width: 100%;
+height: 100%;
+object-fit: fill;
+filter: brightness(60%);
+overflow-clip-margin: content-box;
+overflow: clip;
+
+}
+img{
+  width: 600px;
+  height: 400px;
+}
+.image
+{height:auto;
+width:auto;
+
+}
+.home
+{
+  color:white;
+}
+.navbar {
+    background-color: #1077df;
+    color:#ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px #1817171a;
+}
+ul{
+  text-align: left;
+}
+p{
+  text-align: justify;
+  color:black;
+}
+h2{
+  text-align: left;
+  color: rgb(17, 16, 16);
+}
+.root
+{
+background-color: rgba(14, 207, 14, 0.755);
+}
+ul{
+  color: black;
+}
+.main
+{
+ color:white;
+ font-size: 30px;
+ text-align: left;
+
+}
+ul{
+  text-align: left;
+}
+p{
+  text-align: justify;
+  color:black;
+}
+h2{
+  text-align: left;
+  color: rgb(17, 16, 16);
+}
+.root
+{
+
+background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contain
+{
+    padding:2px;
+    justify-content: center;
+    flex-grow: 1;
+     align-items: flex-start;
+}
+button{
+  
+
+background-color: rgba(14, 207, 14, 0.755);
+}
+.home h1{
+
+   font-size: 3rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+}
+
+.hero-banner {
+  position: relative;
+  text-align: center;
+  padding: 2px;
+  background-color: #001f3f;
+  border-radius: 20px;
+  margin: 20px auto;
+  color: white;
+}
+.hero-banner img {
+  width:100%;
+  height:50%;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+  h1 {
+    text-align: center;
+    color: #388be5;
+    margin-bottom: 25px;
+    font: size 2.5em;
+    font-family: Arial, sans-serif;
+}
+
+ 
+

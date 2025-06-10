@@ -1,0 +1,35 @@
+h1
+{
+text-align: center;
+color: #007bff;
+margin-bottom: 25px;
+font: size 2.5em;
+font-family: Arial,sans-serif;
+}
+p
+{
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+h2{
+  text-align: left;
+}
+ol{
+    text-align:start;
+}
+.navbar {
+    background-color: #1077df;
+    color:#ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px #1817171a;
+}
+.anchor
+{
+  color:black;
+}
+.pro{
+  color: black;
+}
