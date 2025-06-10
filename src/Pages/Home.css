@@ -1,6 +1,6 @@
 h6
 {
-  color:white;
+  
   font-size:35px;
   justify-content: center;
 }
@@ -75,19 +75,20 @@ ul{
 }
 p{
   text-align: justify;
-  color:black;
+  color: #000000;
+ 
 }
 h2{
   text-align: left;
-  color: rgb(17, 16, 16);
+  color:#000000
+  
 }
 .root
 {
 background-color: rgba(14, 207, 14, 0.755);
 }
-ul{
-  color: black;
-}
+
+
 .main
 {
  color:white;
@@ -100,11 +101,11 @@ ul{
 }
 p{
   text-align: justify;
-  color:black;
+
 }
 h2{
   text-align: left;
-  color: rgb(17, 16, 16);
+ 
 }
 .root
 {

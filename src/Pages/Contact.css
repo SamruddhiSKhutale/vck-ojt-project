@@ -7,7 +7,7 @@ font-family: Arial,sans-serif;
 }
 h2{
     text-align: left;
-    color:black;
+   
     font-size: 20px;
 }
 .navbar {
@@ -16,16 +16,6 @@ h2{
     padding: 15px 20px;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    box-shadow: 0 2px 8px #1817171a;
-}
-.nav
- {
-    background-color: #3d4045;
-    color:#ffffff;
-    padding: 15px 20px;
-    display: flex;
-    justify-content:center;
     gap: 20px;
     box-shadow: 0 2px 8px #1817171a;
 }
