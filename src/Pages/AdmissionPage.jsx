@@ -1,11 +1,13 @@
 import React from "react"
 import Header from "../Components/Header/Header";
+import {Link} from 'react-router-dom';
 import "./Admission.css"
 
 const AdmissionPage =() =>{
     return(
-        <div class="pro">
-            
+        <div class="contain">
+        
+            <div className="page-container" style={{overflow:"auto"}}>
          
                 <h1>Admissions at Vivekanand College</h1>
                     <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.
@@ -42,15 +44,17 @@ const AdmissionPage =() =>{
                         <ol>
                             <li><b>Online Application:</b> Fill out the application form available on our portal.</li>
                             <li><b>Document Submission:</b> Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
-                            <li>E<b>ntrance Exam (if applicable):</b>Appear for the college's entrance examination.</li>
+                            <li><b>Entrance Exam (if applicable):</b>Appear for the college's entrance examination.</li>
                             <li><b>Merit List & Interview:</b> Check the merit list and attend the interview if shortlisted.</li>
                             <li><b>Fee Payment:</b> Complete the admission by paying the required fees.</li>
                             </ol>
                         <p>
                             For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our
-                            <Link to="./coursespage">Courses page</Link>or<Link to="./contactpage">Contact us</Link>directly.
+                            <Link to="/coursespage" class="course">Courses page</Link>or<Link to="/contactpage" class="contact">Contact us</Link>directly.
+                 
                         </p>
-        </div>
+                        </div>
+           </div>
     )
 
 }

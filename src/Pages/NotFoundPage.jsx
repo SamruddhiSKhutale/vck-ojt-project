@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../Components/Header/Header";
-import Footer from "../Components/Footer/Footer";
+
 const NotFoundPage = () => {
     return(
         <div>
@@ -10,9 +10,7 @@ const NotFoundPage = () => {
             <a href="/homepage">Go back home</a>
             <br></br>
                 <br></br>
-                    <nav class="nav">
-                         <Footer/>
-                    </nav>
+                    
         </div>
 
 )

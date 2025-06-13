@@ -1,23 +1,28 @@
 
-import React from "react"
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import CoursesPage from "./Pages/CoursesPage";
 import ContactPage from "./Pages/ContactPage";
 import NotFoundPage from "./Pages/NotFoundPage";
-import "./App.css"
 import AdmissionPage from "./Pages/AdmissionPage";
-
+import ChatbotComponent from "./Components/Chatbot/ChatbotComponents";
+import "./App.css"
 
 
 
 const App = () => {
   return (
-    <div>
-    <Router>
-    <Routes>
-        
+     <Router>
+         <Header/>
+        <div class="main-layout">
+    
+     
+      <div class="content">
+        <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/homepage" element={<HomePage/>}/>
         <Route path="/aboutpage" element={<AboutPage/>}/>
@@ -25,9 +30,16 @@ const App = () => {
         <Route path="/contactpage" element={<ContactPage/>}/>
         <Route path="/notfoundpage" element={<NotFoundPage/>}/>
         <Route path="/admissionpage" element={<AdmissionPage/>}/>
-      </Routes>
-    </Router>
+       </Routes>
+      </div>
+      <ChatbotComponent/>
+    
     </div>
+      <Footer/>
+    </Router>
+  
+ 
+ 
   )
 }
 

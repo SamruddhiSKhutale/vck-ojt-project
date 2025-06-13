@@ -19,3 +19,14 @@ h2{
     gap: 20px;
     box-shadow: 0 2px 8px #1817171a;
 }
+.page-container {
+    max-width: 960px;
+    height: 500px;
+   margin:20px;
+    padding: 20px;
+    background-color:#fff;
+    border-radius: 8px;
+    overflow:auto;
+    box-shadow: 0 4px 12px #0000000d;
+}
+

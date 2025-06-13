@@ -6,6 +6,7 @@ const ContactPage = () => {
     return(
         <div>
             
+        <div className="page-container" style={{overflow:"auto"}}>
             <h1>Contact Us</h1>
             <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
             <h2>General Enquiries</h2><hr></hr>
@@ -29,9 +30,7 @@ const ContactPage = () => {
             </p>
         <h2>Send Us a Message</h2><hr></hr>
         <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p><br></br><br></br>
-        <nav class="nav">
-                         <Footer/>
-                    </nav>  
+   </div>     
         </div>
     )
 }

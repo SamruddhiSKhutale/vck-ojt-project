@@ -10,35 +10,32 @@ p
 {
     text-align: justify;
     font-family: Arial, sans-serif;
-   
-
+    
 }
 
-ul{
+.font{
     text-align: start;
     font-family: Arial,sans-serif;
+    color:black;
+    
+}
 
-}
-.navbar {
-    background-color: #1077df;
-    color:#ffffff;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    box-shadow: 0 2px 8px #1817171a;
-}
 h2{
 text-align: left;
 font-size: 25px;
+
 }
-.nav
- {
-    background-color: #3d4045;
-    color:#ffffff;
-    padding: 15px 20px;
-    display: flex;
-    justify-content:center;
-    gap: 20px;
-    box-shadow: 0 2px 8px #1817171a;
+.page-container {
+    max-width: 960px;
+    height: 500px;
+   margin:20px;
+    padding: 20px;
+    background-color:#fff;
+    border-radius: 8px;
+    overflow:auto;
+    box-shadow: 0 4px 12px #0000000d;
 }
+
+  
+
+
